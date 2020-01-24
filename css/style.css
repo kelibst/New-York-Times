@@ -11,7 +11,11 @@ a{
 li{
     list-style: none;
 }
-
+.clearfix{
+        content: '';
+        display: table;
+        clear: both;
+}
 /* styling the navbar section */
 .nav-bar{
     display: flex;
@@ -23,7 +27,8 @@ li{
         padding: 4px 15px 2px;
 }
 .nav-icons > i{
-    padding: 10px;
+	padding: 10px;
+	
 }
 .header-img{
     width: 200px;
@@ -153,4 +158,62 @@ li{
 .li-icons > a:hover{
     background: white;
     border: 1px #333 solid;
+}
+/* 
+stories section goes here */
+
+.stories{
+    max-width: 1250px;
+    margin: 10px auto;
+}
+
+.article-page {
+	max-width: 600px;
+    margin: auto;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+color: #333;
+}
+
+aside {
+	color: #333;
+	width: 20%;
+	display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+}
+.editors > li{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.aside-img{
+    width: 30%;
+    float: left;
+}
+.aside-text{
+    font-weight: 500;
+	border-bottom: medium none;
+	font-family: "nyt-cheltenham-small", georgia, "times new roman";
+    width: 65%;
+    float: right;
+    font-size: 12px;
+	line-height: 17px;
+	margin: auto;
+color:
+rgb(51, 51, 51);
+}
+.editor-header {
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+	border-bottom: 1px solid rgb(226, 226, 226);
+	
+	margin-bottom: 15px;
+	padding-bottom: 12px;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 0.02em;
 }
