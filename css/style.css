@@ -1,7 +1,9 @@
 body{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+	color:#333;
 }
 
 /* general elements styling */
@@ -25,6 +27,9 @@ li{
         background: transparent;
         border-bottom: 0;
         padding: 4px 15px 2px;
+}
+.container-img{
+	width: 200px;
 }
 .nav-icons > i{
 	padding: 10px;
@@ -144,7 +149,6 @@ li{
 	margin-bottom: 1rem;
 	font-size: 0.8125rem;
 	line-height: 1rem;
-	margin-bottom: 0;
 	margin-top: 0;
 }
 
@@ -176,6 +180,8 @@ stories section goes here */
 color: #333;
 }
 
+
+/* aside styling goes here */
 aside {
 	color: #333;
 	width: 20%;
@@ -205,6 +211,9 @@ aside {
 color:
 rgb(51, 51, 51);
 }
+.aside-text:hover{
+	text-decoration: underline;
+}
 .editor-header {
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	font-weight: 700;
@@ -217,3 +226,92 @@ rgb(51, 51, 51);
 	line-height: 14px;
 	letter-spacing: 0.02em;
 }
+
+/* account section  */
+
+.account-section {
+	width: 300px;
+	margin: auto;
+	text-align: center;
+}
+.hr-border{
+	width: 70px;
+}
+.linking {
+	font-size: 14px;
+	margin: 0;
+}
+
+.container-inflation{
+	position: relative;
+	width: 70%;
+	margin: auto;
+}
+
+/* dealing with the tricky containers */
+.grid-title{
+	font-family: nyt-franklin,arial,helvetica,sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 800;
+	color:#000000;
+}
+.tricky{
+	font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+	font-size: 14px;
+	position: absolute;
+	width: 200px;
+	margin: 10px;
+	font-weight: 300;
+}
+.footer-bar{
+	margin-top: 80px;
+	border: .5px solid black;
+	width: 60px;
+}
+.tricky-footer{
+	padding-left: 10px;
+}
+.footer-text {
+	font-size: .875rem;
+	
+	line-height: 1.125rem;
+	font-weight: 500;
+	font-style: normal;
+}
+.p1{
+	top: 28%;
+	left: 0.0436%;
+}
+.p2{
+	top:28%;
+	left:25.5619%;
+}
+.p3{
+	top:28%;
+	left:50.19%;
+}
+.p4{
+	top:28%;
+	left:75.19%;
+}
+.p5{
+	top: 63%;
+	left: 0.0436%;
+}
+.p6{
+	top: 63%;
+	left: 25.5619%;
+}
+.p7{
+	top: 63%;
+	left: 51.0800%;
+}
+.p8{
+	top: 63%;
+	left: 76.5982%;
+}
+.inflation-theory{
+	max-width: 100%;
+}
+
