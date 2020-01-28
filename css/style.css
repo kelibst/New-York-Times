@@ -10,6 +10,10 @@ body{
 a{
     text-decoration: none;
 }
+.img{
+	width: 100%;
+	margin: auto;
+}
 li{
     list-style: none;
 }
@@ -23,10 +27,17 @@ li{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-        max-width: 1605px;
-        background: transparent;
+		max-width: 1605px;
+		width: 100%;
+        background: white;
         border-bottom: 0;
-        padding: 4px 15px 2px;
+		padding: 4px 15px 2px;
+		position: fixed;
+		top: 0;
+		left: 0;
+}
+.main-container{
+	margin-top: 90px;
 }
 .container-img{
 	width: 200px;
@@ -391,4 +402,103 @@ color:
 	color: black;
 	text-align: center;
 	font-size: 11px;
+}
+
+
+/* news section styling */
+
+.news-container-full{
+	display: grid;
+	grid-template-columns: 75% 25%;
+}
+.space-container{
+	width: 100%;
+}
+.news-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	padding: 0 20px;
+	font-size: 14px;
+	columns: #333;
+}
+.more{
+	display: flex;
+	flex-direction: column;
+	
+}
+.more-img{
+	width: 100%;
+	margin: auto;
+}
+.img-caption{
+	font-size: 10px;
+	color: darkgray;
+	padding-top: 7px;
+	float: right;
+}
+
+.title-news{
+	color: rgb(18, 18, 18);
+}
+.title-news:hover{
+	color: rgb(111, 111, 111);
+}
+.news-titles > h3 > a{
+	color:rgb(18, 18, 18);
+font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+font-size: 1.1875rem;
+line-height: 1.4375rem;
+font-weight: 500;
+
+}
+.news-titles > h3{
+	border-top-color: rgb(181, 181, 181);
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding: 10px 0;	
+}
+
+.news-titles > h3:last-child{
+	border-bottom-color: rgb(181, 181, 181);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.news-titles > h3 > a:hover{
+	color: rgb(111, 111, 111);
+}
+/* .news-title > h3{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+} */
+aside.most-popular{
+	width: 23%;
+}
+.more-in-title{
+	font-size: 16px;
+}
+
+.in-title {
+	
+	font-size: 16px;
+	padding-bottom: 30px;
+	position: relative;
+	top: 20px;
+}
+
+.in-title > a {
+	color: #333;
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.more-in-news-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+.editors-pick-news {
+	width: 72%;
+	margin-left: 20px;
 }
