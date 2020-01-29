@@ -187,23 +187,12 @@ li {
   font-size: 16px;
   margin-left: 20px;
 }
-
-.news-titles > h3 > a {
-  color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-size: 1.1875rem;
-  line-height: 1.4375rem;
-  font-weight: 500;
-}
-
-.subscribed-list > li > a,
-.more-in-title > a,
+.more-in-title > a, .subscribed-list > li > a,
 ul.email-language-lists > li > a,
 section.sections-containers > ul > li > a {
   color: #000;
   display: inline-block;
   font-family: nyt-franklin;
-  text-decoration: none;
   text-transform: capitalize;
   width: 150px;
   font-size: 14px;
@@ -211,7 +200,13 @@ section.sections-containers > ul > li > a {
   height: 23px;
   line-height: 16px;
 }
-
+.news-titles > h3 > a {
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  font-weight: 500;
+}
 .li-icons > a:hover {
   background: white;
   border: 1px #333 solid;
