@@ -676,3 +676,77 @@ section.sections-containers > ul > li > a {
   height: 1px;
   margin-top: 2rem;
 }
+/* styling the after footer */
+
+.create-account-bar {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 10px 20px;
+	background: #eee;
+	border-top: 1px solid;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+  }
+  
+  .create-account-text {
+	grid-column: 1/4;
+	text-align: center;
+	cursor: pointer;
+  }
+  
+  .expand {
+	text-align: center;
+  }
+  
+  .expand > a:hover {
+	text-decoration: none;
+  }
+  
+  .expand > a {
+	color: black;
+	font-weight: 700;
+  }
+  
+  .fa-angle-up {
+	padding-left: 20px;
+	font-size: 20px;
+  }
+  /* styling the after footer */
+
+.create-account-bar {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 10px 20px;
+	background: #eee;
+	border-top: 1px solid;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+  }
+  
+  .create-account-text {
+	grid-column: 1/4;
+	text-align: center;
+	cursor: pointer;
+  }
+  
+  .expand {
+	text-align: center;
+  }
+  
+  .expand > a:hover {
+	text-decoration: none;
+  }
+  
+  .expand > a {
+	color: black;
+	font-weight: 700;
+  }
+  
+  .fa-angle-up {
+	padding-left: 20px;
+	font-size: 20px;
+  }

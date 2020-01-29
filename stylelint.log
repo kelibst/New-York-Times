@@ -1,101 +1,102 @@
 
 css/style.css
- 114:1   ✖  Expected no more than 1 empty line                                                        max-empty-lines                              
- 115:1   ✖  Expected no more than 1 empty line                                                        max-empty-lines                              
- 158:1   ✖  Expected no more than 1 empty line                                                        max-empty-lines                              
- 204:1   ✖  Expected no more than 1 empty line                                                        max-empty-lines                              
- 228:49  ✖  Unexpected missing generic font family                                                    font-family-no-missing-generic-family-keyword
- 391:1   ✖  Expected selector ".fig-capt > a" to come before selector ".li-icons > a:hover"           no-descending-specificity                    
- 437:1   ✖  Expected no more than 1 empty line                                                        max-empty-lines                              
- 483:1   ✖  Expected selector ".news-titles > h3 > a" to come before selector ".li-icons > a:hover"   no-descending-specificity                    
- 531:1   ✖  Expected selector ".in-title > a" to come before selector ".li-icons > a:hover"           no-descending-specificity                    
- 531:1   ✖  Expected selector ".in-title > a" to come before selector ".news-titles > h3 > a"         no-descending-specificity                    
- 531:1   ✖  Expected selector ".in-title > a" to come before selector ".news-titles > h3 > a:hover"   no-descending-specificity                    
- 554:1   ✖  Expected no more than 1 empty line                                                        max-empty-lines                              
- 595:1   ✖  Expected selector ".subscribe-list > li > a:hover" to come before selector                no-descending-specificity                    
-            "section.sections-containers > ul > li > a:hover"                                                                                      
- 596:1   ✖  Expected selector "ul.email-language-lists > li > a:hover" to come before selector        no-descending-specificity                    
-            "section.sections-containers > ul > li > a:hover"                                                                                      
- 608:1   ✖  Expected selector ".subscribe-list > li > a" to come before selector ".li-icons >         no-descending-specificity                    
-            a:hover"                                                                                                                               
- 608:1   ✖  Expected selector ".subscribe-list > li > a" to come before selector ".news-titles > h3   no-descending-specificity                    
-            > a:hover"                                                                                                                             
- 608:1   ✖  Expected selector ".subscribe-list > li > a" to come before selector                      no-descending-specificity                    
-            "section.sections-containers > ul > li > a:hover"                                                                                      
- 608:1   ✖  Expected selector ".subscribe-list > li > a" to come before selector ".subscribe-list >   no-descending-specificity                    
-            li > a:hover"                                                                                                                          
- 608:1   ✖  Expected selector ".subscribe-list > li > a" to come before selector                      no-descending-specificity                    
-            "ul.email-language-lists > li > a:hover"                                                                                               
- 609:1   ✖  Expected selector ".more-in-title > a" to come before selector ".li-icons > a:hover"      no-descending-specificity                    
- 609:1   ✖  Expected selector ".more-in-title > a" to come before selector ".news-titles > h3 > a"    no-descending-specificity                    
- 609:1   ✖  Expected selector ".more-in-title > a" to come before selector ".news-titles > h3 >       no-descending-specificity                    
-            a:hover"                                                                                                                               
- 609:1   ✖  Expected selector ".more-in-title > a" to come before selector                            no-descending-specificity                    
-            "section.sections-containers > ul > li > a:hover"                                                                                      
- 609:1   ✖  Expected selector ".more-in-title > a" to come before selector ".subscribe-list > li >    no-descending-specificity                    
-            a:hover"                                                                                                                               
- 609:1   ✖  Expected selector ".more-in-title > a" to come before selector "ul.email-language-lists   no-descending-specificity                    
-            > li > a:hover"                                                                                                                        
- 609:1   ✖  Expected selector ".more-in-title > a" to come before selector ".subscribe-list > li >    no-descending-specificity                    
-            a"                                                                                                                                     
- 610:1   ✖  Expected selector "ul.email-language-lists > li > a" to come before selector ".li-icons   no-descending-specificity                    
-            > a:hover"                                                                                                                             
- 610:1   ✖  Expected selector "ul.email-language-lists > li > a" to come before selector              no-descending-specificity                    
-            ".news-titles > h3 > a:hover"                                                                                                          
- 610:1   ✖  Expected selector "ul.email-language-lists > li > a" to come before selector              no-descending-specificity                    
-            "section.sections-containers > ul > li > a:hover"                                                                                      
- 610:1   ✖  Expected selector "ul.email-language-lists > li > a" to come before selector              no-descending-specificity                    
-            ".subscribe-list > li > a:hover"                                                                                                       
- 610:1   ✖  Expected selector "ul.email-language-lists > li > a" to come before selector              no-descending-specificity                    
-            "ul.email-language-lists > li > a:hover"                                                                                               
- 611:1   ✖  Expected selector "section.sections-containers > ul > li > a" to come before selector     no-descending-specificity                    
-            ".li-icons > a:hover"                                                                                                                  
- 611:1   ✖  Expected selector "section.sections-containers > ul > li > a" to come before selector     no-descending-specificity                    
-            ".news-titles > h3 > a:hover"                                                                                                          
- 611:1   ✖  Expected selector "section.sections-containers > ul > li > a" to come before selector     no-descending-specificity                    
-            "section.sections-containers > ul > li > a:hover"                                                                                      
- 611:1   ✖  Expected selector "section.sections-containers > ul > li > a" to come before selector     no-descending-specificity                    
-            ".subscribe-list > li > a:hover"                                                                                                       
- 611:1   ✖  Expected selector "section.sections-containers > ul > li > a" to come before selector     no-descending-specificity                    
-            "ul.email-language-lists > li > a:hover"                                                                                               
- 614:16  ✖  Unexpected missing generic font family                                                    font-family-no-missing-generic-family-keyword
- 628:16  ✖  Unexpected missing generic font family                                                    font-family-no-missing-generic-family-keyword
- 636:1   ✖  Expected no more than 1 empty line                                                        max-empty-lines                              
- 637:1   ✖  Expected no more than 1 empty line                                                        max-empty-lines                              
- 657:1   ✖  Expected selector ".footer-list > li > a" to come before selector ".li-icons > a:hover"   no-descending-specificity                    
- 657:1   ✖  Expected selector ".footer-list > li > a" to come before selector ".news-titles > h3 >    no-descending-specificity                    
-            a:hover"                                                                                                                               
- 657:1   ✖  Expected selector ".footer-list > li > a" to come before selector                         no-descending-specificity                    
-            "section.sections-containers > ul > li > a:hover"                                                                                      
- 657:1   ✖  Expected selector ".footer-list > li > a" to come before selector ".subscribe-list > li   no-descending-specificity                    
-            > a:hover"                                                                                                                             
- 657:1   ✖  Expected selector ".footer-list > li > a" to come before selector                         no-descending-specificity                    
-            "ul.email-language-lists > li > a:hover"                                                                                               
- 657:1   ✖  Expected selector ".footer-list > li > a" to come before selector                         no-descending-specificity                    
-            "ul.email-language-lists > li > a"                                                                                                     
- 657:1   ✖  Expected selector ".footer-list > li > a" to come before selector                         no-descending-specificity                    
-            "section.sections-containers > ul > li > a"                                                                                            
- 698:1   ✖  Expected selector ".expand > a:hover" to come before selector ".news-titles > h3 >        no-descending-specificity                    
-            a:hover"                                                                                                                               
- 698:1   ✖  Expected selector ".expand > a:hover" to come before selector                             no-descending-specificity                    
-            "section.sections-containers > ul > li > a:hover"                                                                                      
- 698:1   ✖  Expected selector ".expand > a:hover" to come before selector ".subscribe-list > li >     no-descending-specificity                    
-            a:hover"                                                                                                                               
- 698:1   ✖  Expected selector ".expand > a:hover" to come before selector "ul.email-language-lists >  no-descending-specificity                    
-            li > a:hover"                                                                                                                          
- 702:1   ✖  Expected selector ".expand > a" to come before selector ".li-icons > a:hover"             no-descending-specificity                    
- 702:1   ✖  Expected selector ".expand > a" to come before selector ".news-titles > h3 > a"           no-descending-specificity                    
- 702:1   ✖  Expected selector ".expand > a" to come before selector ".news-titles > h3 > a:hover"     no-descending-specificity                    
- 702:1   ✖  Expected selector ".expand > a" to come before selector "section.sections-containers >    no-descending-specificity                    
-            ul > li > a:hover"                                                                                                                     
- 702:1   ✖  Expected selector ".expand > a" to come before selector ".subscribe-list > li > a:hover"  no-descending-specificity                    
- 702:1   ✖  Expected selector ".expand > a" to come before selector "ul.email-language-lists > li >   no-descending-specificity                    
-            a:hover"                                                                                                                               
- 702:1   ✖  Expected selector ".expand > a" to come before selector ".subscribe-list > li > a"        no-descending-specificity                    
- 702:1   ✖  Expected selector ".expand > a" to come before selector "ul.email-language-lists > li >   no-descending-specificity                    
-            a"                                                                                                                                     
- 702:1   ✖  Expected selector ".expand > a" to come before selector "section.sections-containers >    no-descending-specificity                    
-            ul > li > a"                                                                                                                           
- 702:1   ✖  Expected selector ".expand > a" to come before selector ".footer-list > li > a"           no-descending-specificity                    
- 702:1   ✖  Expected selector ".expand > a" to come before selector ".expand > a:hover"               no-descending-specificity
+ 201:1   ✖  Expected no more than 1 empty line                  max-empty-lines                              
+ 225:49  ✖  Unexpected missing generic font family              font-family-no-missing-generic-family-keyword
+ 388:1   ✖  Expected selector ".fig-capt > a" to come before    no-descending-specificity                    
+            selector ".li-icons > a:hover"                                                                   
+ 434:1   ✖  Expected no more than 1 empty line                  max-empty-lines                              
+ 481:1   ✖  Expected selector ".news-titles > h3 > a" to come   no-descending-specificity                    
+            before selector ".li-icons > a:hover"                                                            
+ 534:1   ✖  Expected selector ".in-title > a" to come before    no-descending-specificity                    
+            selector ".li-icons > a:hover"                                                                   
+ 534:1   ✖  Expected selector ".in-title > a" to come before    no-descending-specificity                    
+            selector ".news-titles > h3 > a"                                                                 
+ 534:1   ✖  Expected selector ".in-title > a" to come before    no-descending-specificity                    
+            selector ".news-titles > h3 > a:hover"                                                           
+ 558:1   ✖  Expected no more than 1 empty line                  max-empty-lines                              
+ 599:1   ✖  Expected selector ".subscribe-list > li > a:hover"  no-descending-specificity                    
+            to come before selector                                                                          
+            "section.sections-containers > ul > li > a:hover"                                                
+ 600:1   ✖  Expected selector "ul.email-language-lists > li >   no-descending-specificity                    
+            a:hover" to come before selector                                                                 
+            "section.sections-containers > ul > li > a:hover"                                                
+ 612:1   ✖  Expected selector ".subscribe-list > li > a" to     no-descending-specificity                    
+            come before selector ".li-icons > a:hover"                                                       
+ 612:1   ✖  Expected selector ".subscribe-list > li > a" to     no-descending-specificity                    
+            come before selector ".news-titles > h3 > a:hover"                                               
+ 612:1   ✖  Expected selector ".subscribe-list > li > a" to     no-descending-specificity                    
+            come before selector "section.sections-containers                                                
+            > ul > li > a:hover"                                                                             
+ 612:1   ✖  Expected selector ".subscribe-list > li > a" to     no-descending-specificity                    
+            come before selector ".subscribe-list > li >                                                     
+            a:hover"                                                                                         
+ 612:1   ✖  Expected selector ".subscribe-list > li > a" to     no-descending-specificity                    
+            come before selector "ul.email-language-lists > li                                               
+            > a:hover"                                                                                       
+ 613:1   ✖  Expected selector ".more-in-title > a" to come      no-descending-specificity                    
+            before selector ".li-icons > a:hover"                                                            
+ 613:1   ✖  Expected selector ".more-in-title > a" to come      no-descending-specificity                    
+            before selector ".news-titles > h3 > a"                                                          
+ 613:1   ✖  Expected selector ".more-in-title > a" to come      no-descending-specificity                    
+            before selector ".news-titles > h3 > a:hover"                                                    
+ 613:1   ✖  Expected selector ".more-in-title > a" to come      no-descending-specificity                    
+            before selector "section.sections-containers > ul                                                
+            > li > a:hover"                                                                                  
+ 613:1   ✖  Expected selector ".more-in-title > a" to come      no-descending-specificity                    
+            before selector ".subscribe-list > li > a:hover"                                                 
+ 613:1   ✖  Expected selector ".more-in-title > a" to come      no-descending-specificity                    
+            before selector "ul.email-language-lists > li >                                                  
+            a:hover"                                                                                         
+ 613:1   ✖  Expected selector ".more-in-title > a" to come      no-descending-specificity                    
+            before selector ".subscribe-list > li > a"                                                       
+ 614:1   ✖  Expected selector "ul.email-language-lists > li >   no-descending-specificity                    
+            a" to come before selector ".li-icons > a:hover"                                                 
+ 614:1   ✖  Expected selector "ul.email-language-lists > li >   no-descending-specificity                    
+            a" to come before selector ".news-titles > h3 >                                                  
+            a:hover"                                                                                         
+ 614:1   ✖  Expected selector "ul.email-language-lists > li >   no-descending-specificity                    
+            a" to come before selector                                                                       
+            "section.sections-containers > ul > li > a:hover"                                                
+ 614:1   ✖  Expected selector "ul.email-language-lists > li >   no-descending-specificity                    
+            a" to come before selector ".subscribe-list > li >                                               
+            a:hover"                                                                                         
+ 614:1   ✖  Expected selector "ul.email-language-lists > li >   no-descending-specificity                    
+            a" to come before selector                                                                       
+            "ul.email-language-lists > li > a:hover"                                                         
+ 615:1   ✖  Expected selector "section.sections-containers >    no-descending-specificity                    
+            ul > li > a" to come before selector ".li-icons >                                                
+            a:hover"                                                                                         
+ 615:1   ✖  Expected selector "section.sections-containers >    no-descending-specificity                    
+            ul > li > a" to come before selector ".news-titles                                               
+            > h3 > a:hover"                                                                                  
+ 615:1   ✖  Expected selector "section.sections-containers >    no-descending-specificity                    
+            ul > li > a" to come before selector                                                             
+            "section.sections-containers > ul > li > a:hover"                                                
+ 615:1   ✖  Expected selector "section.sections-containers >    no-descending-specificity                    
+            ul > li > a" to come before selector                                                             
+            ".subscribe-list > li > a:hover"                                                                 
+ 615:1   ✖  Expected selector "section.sections-containers >    no-descending-specificity                    
+            ul > li > a" to come before selector                                                             
+            "ul.email-language-lists > li > a:hover"                                                         
+ 618:16  ✖  Unexpected missing generic font family              font-family-no-missing-generic-family-keyword
+ 632:16  ✖  Unexpected missing generic font family              font-family-no-missing-generic-family-keyword
+ 640:1   ✖  Expected no more than 1 empty line                  max-empty-lines                              
+ 641:1   ✖  Expected no more than 1 empty line                  max-empty-lines                              
+ 663:1   ✖  Expected selector ".footer-list > li > a" to come   no-descending-specificity                    
+            before selector ".li-icons > a:hover"                                                            
+ 663:1   ✖  Expected selector ".footer-list > li > a" to come   no-descending-specificity                    
+            before selector ".news-titles > h3 > a:hover"                                                    
+ 663:1   ✖  Expected selector ".footer-list > li > a" to come   no-descending-specificity                    
+            before selector "section.sections-containers > ul                                                
+            > li > a:hover"                                                                                  
+ 663:1   ✖  Expected selector ".footer-list > li > a" to come   no-descending-specificity                    
+            before selector ".subscribe-list > li > a:hover"                                                 
+ 663:1   ✖  Expected selector ".footer-list > li > a" to come   no-descending-specificity                    
+            before selector "ul.email-language-lists > li >                                                  
+            a:hover"                                                                                         
+ 663:1   ✖  Expected selector ".footer-list > li > a" to come   no-descending-specificity                    
+            before selector "ul.email-language-lists > li > a"                                               
+ 663:1   ✖  Expected selector ".footer-list > li > a" to come   no-descending-specificity                    
+            before selector "section.sections-containers > ul                                                
+            > li > a"
 
