@@ -176,6 +176,12 @@ li {
   color: black;
 }
 
+.fig-capt > a {
+  text-decoration: underline;
+  color: #333;
+  font-size: 13px;
+}
+
 .li-icons > a:hover {
   background: white;
   border: 1px #333 solid;
@@ -385,12 +391,6 @@ aside {
 
 .biceps-img {
   width: 100%;
-}
-
-.fig-capt > a {
-  text-decoration: underline;
-  color: #333;
-  font-size: 13px;
 }
 
 /* styling the social buttons */
