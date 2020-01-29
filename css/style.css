@@ -111,8 +111,6 @@ li {
   margin: 43px auto;
 }
 
-
-
 .headline-img-caption {
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -154,7 +152,6 @@ li {
   display: inline-block;
   width: 100%;
 }
-
 
 .li-icons {
   float: right;
@@ -514,7 +511,8 @@ aside {
 aside.most-popular {
   border-top: 1px solid;
 }
-.aside-more{
+
+.aside-more {
   width: 100%;
   position: relative;
   left: 50px;
@@ -678,4 +676,3 @@ section.sections-containers > ul > li > a {
   height: 1px;
   margin-top: 2rem;
 }
-
