@@ -187,12 +187,16 @@ li {
   font-size: 16px;
   margin-left: 20px;
 }
-.more-in-title > a, .subscribed-list > li > a,
-ul.email-language-lists > li > a,
-section.sections-containers > ul > li > a {
+
+.expand > a {
+  color: black;
+  font-weight: 700;
+}
+
+.more-in-title > a {
   color: #000;
   display: inline-block;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, sans-serif;
   text-transform: capitalize;
   width: 150px;
   font-size: 14px;
@@ -200,13 +204,37 @@ section.sections-containers > ul > li > a {
   height: 23px;
   line-height: 16px;
 }
+
 .news-titles > h3 > a {
   color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-family: georgia, "times new roman", times, serif;
   font-size: 1.1875rem;
   line-height: 1.4375rem;
   font-weight: 500;
 }
+
+.footer-list > li > a {
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  padding: 10px 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.subscribed-list > li > a,
+ul.email-language-lists > li > a,
+section.sections-containers > ul > li > a {
+  color: #000;
+  display: inline-block;
+  font-family: nyt-franklin, sans-serif;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+}
+
 .li-icons > a:hover {
   background: white;
   border: 1px #333 solid;
@@ -518,6 +546,10 @@ aside {
   border-bottom-style: solid;
 }
 
+.expand > a:hover {
+  text-decoration: none;
+}
+
 .news-titles > h3 > a:hover {
   color: rgb(111, 111, 111);
 }
@@ -567,7 +599,6 @@ aside.most-popular {
   margin: 20px;
   height: 40px;
 }
-
 
 /* styling the footer links */
 
@@ -626,7 +657,7 @@ section.sections-containers > ul > li > a:hover {
   color: #333;
   font-size: 13px;
   font-weight: 700;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, sans-serif;
   height: 25px;
   line-height: 15px;
   margin: 0;
@@ -655,14 +686,6 @@ section.sections-containers > ul > li > a:hover {
 
 .footer-list > li {
   padding-right: 10px;
-}
-
-.footer-list > li > a {
-  color: #666;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  padding: 10px 0;
-  text-decoration: none;
-  white-space: nowrap;
 }
 
 .article-ending::before {
@@ -696,53 +719,6 @@ section.sections-containers > ul > li > a:hover {
 
 .expand {
   text-align: center;
-}
-
-.expand > a:hover {
-  text-decoration: none;
-}
-
-.expand > a {
-  color: black;
-  font-weight: 700;
-}
-
-.fa-angle-up {
-  padding-left: 20px;
-  font-size: 20px;
-}
-
-/* styling the after footer */
-
-.create-account-bar {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 10px 20px;
-  background: #eee;
-  border-top: 1px solid;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-}
-
-.create-account-text {
-  grid-column: 1/4;
-  text-align: center;
-  cursor: pointer;
-}
-
-.expand {
-  text-align: center;
-}
-
-.expand > a:hover {
-  text-decoration: none;
-}
-
-.expand > a {
-  color: black;
-  font-weight: 700;
 }
 
 .fa-angle-up {
