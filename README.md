@@ -12,7 +12,7 @@ It is a clone of the New York Times article page.
 
 ## Live Demo
 
-[Live Demo](https://raw.githack.com/kelibst/New-York-Times/new-featured-branch/index.html)
+[Live Demo](https://dazzling-aryabhata-a680c0.netlify.com/)
 
 ## Getting Started
 
